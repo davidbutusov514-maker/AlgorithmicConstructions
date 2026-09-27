@@ -1,3 +1,4 @@
+using AlgorithmicConstructions.Arrays;
 using AlgorithmicConstructions.Strings;
 using AlgorithmicConstructions.Tasks;
 
@@ -20,6 +21,10 @@ namespace AlgorithmicConstructions
                 Console.WriteLine("6. Задание 2 (Строки): телефонные номера");
                 Console.WriteLine("7. Задание 3 (Строки): анализатор текста");
                 Console.WriteLine("8. Задание 4 (Строки): парсинг \"Имя:Значение\"");
+                Console.WriteLine("9. Задание 1 (Массивы): статистика массива");
+                Console.WriteLine("10. Задание 2 (Массивы): ввод и сортировка");
+                Console.WriteLine("11. Задание 3 (Массивы): уникальные элементы");
+                Console.WriteLine("12. Задание 4 (Массивы): обработка исключений");
                 Console.WriteLine();
                 Console.WriteLine("0. Выход");
                 Console.Write("Выберите задание: ");
@@ -36,6 +41,10 @@ namespace AlgorithmicConstructions
                     case "6": StringTask2.Run(); break;
                     case "7": StringTask3.Run(); break;
                     case "8": StringTask4.Run(); break;
+                    case "9": ArrayTask1.Run(); break;
+                    case "10": ArrayTask2.Run(); break;
+                    case "11": ArrayTask3.Run(); break;
+                    case "12": ArrayTask4.Run(); break;
                     case "0": return;
                     default:
                         Console.WriteLine("Неверный выбор");
